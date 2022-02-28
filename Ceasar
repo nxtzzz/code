@@ -53,3 +53,6 @@ class Program
         string encryptedText = cipher.Encrypt(message, secretKey);
         Console.WriteLine("Зашифрованное сообщение: {0}", encryptedText);
         Console.WriteLine("Расшифрованное сообщение: {0}", cipher.Decrypt(encryptedText, secretKey));
+
+    }
+}
