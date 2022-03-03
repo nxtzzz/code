@@ -1,0 +1,72 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+public class VigenereCipher
+{
+    const string DefAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    readonly string letters;
+
+    public VigenereCipher(string alphabet = null)
+    {
+        letters = string.IsNullOrEmpty(alphabet) ? DefAlphabet : alphabet;
+    }
+
+    private string GetRepeatKey(string s, int n)
+    {
+        var p = s;
+        while (p.Length < n)
+        {
+            p += p;
+        }
+
+        return p.Substring(0, n);
+    }
+
+    private string Vigenere(string text, string passw, bool encrypting = true)
+    {
+        var gamma = GetRepeatKey(passw, text.Length);
+        var retValue = "";
+        var q = letters.Length;
+
+        for (int i = 0; i < text.Length; i++)
+        {
+            var letterIndex = letters.IndexOf(text[i]);
+            var codeIndex = letters.IndexOf(gamma[i]);
+            if (letterIndex < 0)
+            {
+                retValue += text[i].ToString();
+            }
+            else
+            {
+                retValue += letters[(q + letterIndex + ((encrypting ? 1 : -1) * codeIndex)) % q].ToString();
+            }
+        }
+
+        return retValue;
+    }
+
+    public string Encrypt(string DefMessage, string passw)
+        => Vigenere(DefMessage, passw);
+
+    public string Decrypt(string encryptedMessage, string passw)
+        => Vigenere(encryptedMessage, passw, false);
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        var cipher = new VigenereCipher("АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ");
+        Console.Write("Введите текст: ");
+        var inputText = Console.ReadLine().ToUpper();
+        Console.Write("Введите ключ: ");
+        var keymesg = Console.ReadLine().ToUpper();
+        var encryptedText = cipher.Encrypt(inputText, keymesg);
+        Console.WriteLine("Зашифрованное сообщение: {0}", encryptedText);
+        Console.WriteLine("Расшифрованное сообщение: {0}", cipher.Decrypt(encryptedText, keymesg));
+        Console.ReadLine();
+    }
+}
