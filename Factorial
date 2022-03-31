@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Factorial
+{
+    public static class factorial
+    {
+        public static int Factoriall(int num)
+        {
+            int result = 1;
+            for (int i = 1; i <= num; i++)
+            {
+                result *= i;
+            }
+            return result;
+        }
+    }
+}
+
+/*using Factorial;
+int a = Int32.Parse(Console.ReadLine());
+Console.WriteLine(factorial.Factoriall(a));*/
