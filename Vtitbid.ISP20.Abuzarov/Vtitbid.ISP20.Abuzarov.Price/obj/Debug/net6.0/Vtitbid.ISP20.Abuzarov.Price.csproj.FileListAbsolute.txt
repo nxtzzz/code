@@ -1,0 +1,15 @@
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Price\bin\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Price.exe
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Price\bin\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Price.deps.json
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Price\bin\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Price.runtimeconfig.json
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Price\bin\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Price.dll
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Price\bin\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Price.pdb
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Price\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Price.csproj.AssemblyReference.cache
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Price\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Price.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Price\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Price.AssemblyInfoInputs.cache
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Price\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Price.AssemblyInfo.cs
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Price\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Price.csproj.CoreCompileInputs.cache
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Price\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Price.dll
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Price\obj\Debug\net6.0\refint\Vtitbid.ISP20.Abuzarov.Price.dll
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Price\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Price.pdb
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Price\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Price.genruntimeconfig.cache
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Price\obj\Debug\net6.0\ref\Vtitbid.ISP20.Abuzarov.Price.dll

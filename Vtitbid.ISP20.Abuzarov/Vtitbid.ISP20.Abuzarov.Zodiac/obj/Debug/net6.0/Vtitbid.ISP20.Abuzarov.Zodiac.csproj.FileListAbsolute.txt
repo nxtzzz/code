@@ -1,0 +1,15 @@
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Zodiac\bin\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Zodiac.exe
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Zodiac\bin\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Zodiac.deps.json
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Zodiac\bin\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Zodiac.runtimeconfig.json
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Zodiac\bin\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Zodiac.dll
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Zodiac\bin\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Zodiac.pdb
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Zodiac\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Zodiac.csproj.AssemblyReference.cache
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Zodiac\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Zodiac.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Zodiac\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Zodiac.AssemblyInfoInputs.cache
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Zodiac\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Zodiac.AssemblyInfo.cs
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Zodiac\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Zodiac.csproj.CoreCompileInputs.cache
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Zodiac\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Zodiac.dll
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Zodiac\obj\Debug\net6.0\refint\Vtitbid.ISP20.Abuzarov.Zodiac.dll
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Zodiac\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Zodiac.pdb
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Zodiac\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Zodiac.genruntimeconfig.cache
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Zodiac\obj\Debug\net6.0\ref\Vtitbid.ISP20.Abuzarov.Zodiac.dll
