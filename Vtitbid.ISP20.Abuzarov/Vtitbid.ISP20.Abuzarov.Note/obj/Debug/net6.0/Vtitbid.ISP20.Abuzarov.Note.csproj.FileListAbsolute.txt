@@ -1,0 +1,15 @@
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Note\bin\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Note.exe
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Note\bin\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Note.deps.json
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Note\bin\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Note.runtimeconfig.json
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Note\bin\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Note.dll
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Note\bin\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Note.pdb
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Note\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Note.csproj.AssemblyReference.cache
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Note\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Note.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Note\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Note.AssemblyInfoInputs.cache
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Note\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Note.AssemblyInfo.cs
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Note\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Note.csproj.CoreCompileInputs.cache
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Note\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Note.dll
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Note\obj\Debug\net6.0\refint\Vtitbid.ISP20.Abuzarov.Note.dll
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Note\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Note.pdb
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Note\obj\Debug\net6.0\Vtitbid.ISP20.Abuzarov.Note.genruntimeconfig.cache
+C:\Users\-nxtz\Documents\code\Vtitbid.ISP20.Abuzarov\Vtitbid.ISP20.Abuzarov.Note\obj\Debug\net6.0\ref\Vtitbid.ISP20.Abuzarov.Note.dll
