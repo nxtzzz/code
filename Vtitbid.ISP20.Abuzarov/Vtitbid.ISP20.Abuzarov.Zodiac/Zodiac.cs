@@ -69,8 +69,8 @@ namespace Vtitbid.ISP20.Abuzarov.Zodiac
 
         private ZodiacSign SignDate(DateOfBirth dateOfBirth)
         {
-            var day = dateOfBirth.Day;
-            var month = dateOfBirth.Month;
+            int day = dateOfBirth.Day;
+            int month = dateOfBirth.Month;
 
             if ((day >= 21 && month == 3) || (day <= 20 && month == 4))
                 return ZodiacSign.Aries;
@@ -133,8 +133,8 @@ namespace Vtitbid.ISP20.Abuzarov.Zodiac
         }
         public override string ToString()
         {
-            var firstName = FirstName == null ? "Имя не определено": FirstName.ToString();
-            var lastName = LastName == null ? "Фамилия не опрделена": LastName.ToString();
+            string firstName = FirstName == null ? "Имя не определено": FirstName.ToString();
+            string lastName = LastName == null ? "Фамилия не опрделена": LastName.ToString();
             return $"{FirstName} {LastName}\n{DateOfBirth}\nЗнак зодиака: {ZodiacSignToString(ZodiacSigns)}";
         }
 

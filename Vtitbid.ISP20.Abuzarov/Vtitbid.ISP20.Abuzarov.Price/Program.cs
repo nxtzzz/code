@@ -9,7 +9,7 @@ namespace Vtitbid.ISP20.Abuzarov.Price
             Console.Write("Введите количество магазинов: ");
             if (int.TryParse(Console.ReadLine(), out int value))
             {
-                Price[] array = Price.GetPrice(value);
+                Price[] array = Price.GetPriceArray(value);
                 Console.WriteLine();
                 Console.WriteLine(Price.PriceSearch(array));
             }

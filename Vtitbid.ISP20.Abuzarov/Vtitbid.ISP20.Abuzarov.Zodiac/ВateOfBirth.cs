@@ -22,11 +22,11 @@ namespace Vtitbid.ISP20.Abuzarov.Zodiac
         {
             Console.WriteLine("Дата рождения:");
             Console.Write("Введите день: ");
-            var day = Validate(Console.ReadLine(), nameof(Day));
+            int day = Validate(Console.ReadLine(), nameof(Day));
             Console.Write("Введите месяц: ");
-            var month = Validate(Console.ReadLine(), nameof(Month));
+            int month = Validate(Console.ReadLine(), nameof(Month));
             Console.Write("Введите год: ");
-            var year = Validate(Console.ReadLine(), nameof(Year));
+            int year = Validate(Console.ReadLine(), nameof(Year));
 
             return new DateOfBirth(day, month, year);
         }
@@ -63,9 +63,9 @@ namespace Vtitbid.ISP20.Abuzarov.Zodiac
         }
         public override string ToString()
         {
-            var stringDay = Day == -1 ? "День не определен" : Day.ToString();
-            var stringMonth = Month == -1 ? "Месяц не определен" : Month.ToString();
-            var stringYear = Year == -1 ? "Год не определен" : Year.ToString();
+            string stringDay = Day == -1 ? "День не определен" : Day.ToString();
+            string stringMonth = Month == -1 ? "Месяц не определен" : Month.ToString();
+            string stringYear = Year == -1 ? "Год не определен" : Year.ToString();
 
             return $"Дата рождения:\nДень: {stringDay} Месяц: {stringMonth} Год: {stringYear}";
         }

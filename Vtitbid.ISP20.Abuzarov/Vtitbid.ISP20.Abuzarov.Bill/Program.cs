@@ -6,12 +6,17 @@ namespace Vtitbid.ISP20.Abuzarov.Bill
     {
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
-            int n = 3;
-            ListAccounts[] listAccounts = new ListAccounts[n];
-            ListAccounts bill = new ListAccounts();
+            Console.Write("Введите количество операций: ");
+            if (int.TryParse(Console.ReadLine(), out int value))
+            {
+                Bill[] array = Bill.GetBillArray(value);
+                Bill.SearchBill(array);
 
-            ListAccounts.Conclusion(n, listAccounts);
+            }
+            else
+            {
+                Console.WriteLine("Количесвто операций не опредлено ");
+            }
         }
     }
 }

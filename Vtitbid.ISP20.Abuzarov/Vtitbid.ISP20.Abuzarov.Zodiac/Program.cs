@@ -9,7 +9,7 @@
             {
                 Zodiac[] array = Zodiac.GetZodiacArray(value);
                 Console.WriteLine();
-                foreach (var zodiac in array)
+                foreach (Zodiac zodiac in array)
                 {
                     Console.WriteLine(zodiac);
                     Console.WriteLine();

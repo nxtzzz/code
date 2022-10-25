@@ -13,7 +13,7 @@ namespace Vtitbid.ISP20.Abuzarov.Note
         public string LastName { get; set; }
         public string PhoneNumber { get; set; }
         public DateOfBirth DateOfBirth { get; set; }
-        public static Note[] GetNote(int count)
+        public static Note[] GetNoteArray(int count)
         {
             Note[] notes = new Note[count];
             for (int i = 0; i < notes.Length; i++)
@@ -30,7 +30,7 @@ namespace Vtitbid.ISP20.Abuzarov.Note
             Console.Write("Введите Вашу фамилию: ");
             string lastName = ChekName(Console.ReadLine(), nameof(LastName));
 
-            Console.WriteLine("введите номер телефона: ");
+            Console.Write("введите номер телефона: ");
             string phoneNumber = ChekName(Console.ReadLine(), nameof(PhoneNumber));
 
             DateOfBirth dateOfBirth = DateOfBirth.CreateDateOfBirth();
@@ -95,12 +95,12 @@ namespace Vtitbid.ISP20.Abuzarov.Note
                 case nameof(FirstName):
                     if (!string.IsNullOrEmpty(input))
                     { return input; break; }
-                    else { return "Название товара не определено"; break; }
+                    else { return "Имя не определено"; break; }
 
                 case nameof(LastName):
                     if (!string.IsNullOrEmpty(input))
                     { return input; break; }
-                    else { return "Названия магазина не определена"; break; }
+                    else { return "Фамилия не определена"; break; }
 
             }
             return null;

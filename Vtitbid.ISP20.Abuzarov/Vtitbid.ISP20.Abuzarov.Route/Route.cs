@@ -29,7 +29,7 @@ namespace Vtitbid.ISP20.Abuzarov.Route
                 return null;
             }
         }
-        public static Route[] GetRoute(int count)
+        public static Route[] GetRouteArray(int count)
         {
             Route[] routes = new Route[count];
 

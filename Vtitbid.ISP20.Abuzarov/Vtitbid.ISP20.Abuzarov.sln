@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vtitbid.ISP20.Abuzarov.Zodi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vtitbid.ISP20.Abuzarov.Route", "Vtitbid.ISP20.Abuzarov.Route\Vtitbid.ISP20.Abuzarov.Route.csproj", "{2D7368B8-3CE6-41ED-82A4-1E4A1A066F39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vtitbid.ISP20.Abuzarov.Note", "Vtitbid.ISP20.Abuzarov.Note\Vtitbid.ISP20.Abuzarov.Note.csproj", "{3FEAEA6C-6A32-4B93-A125-FC8A127B1419}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vtitbid.ISP20.Abuzarov.Note", "Vtitbid.ISP20.Abuzarov.Note\Vtitbid.ISP20.Abuzarov.Note.csproj", "{3FEAEA6C-6A32-4B93-A125-FC8A127B1419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vtitbid.ISP20.Abuzarov.Bill", "Vtitbid.ISP20.Abuzarov.Bill\Vtitbid.ISP20.Abuzarov.Bill.csproj", "{64D19F1A-230A-4CF1-BF9A-64AD4986602D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3FEAEA6C-6A32-4B93-A125-FC8A127B1419}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FEAEA6C-6A32-4B93-A125-FC8A127B1419}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FEAEA6C-6A32-4B93-A125-FC8A127B1419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D19F1A-230A-4CF1-BF9A-64AD4986602D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D19F1A-230A-4CF1-BF9A-64AD4986602D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D19F1A-230A-4CF1-BF9A-64AD4986602D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D19F1A-230A-4CF1-BF9A-64AD4986602D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

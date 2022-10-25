@@ -9,7 +9,7 @@ namespace Vtitbid.ISP20.Abuzarov.Route
             Console.Write("Введите количество маршрутов: ");
             if (int.TryParse(Console.ReadLine(), out int value))
             {
-                Route[] array = Route.GetRoute(value);
+                Route[] array = Route.GetRouteArray(value);
                 Console.WriteLine();
                 Console.WriteLine(Route.RouteSearch(array));
             }

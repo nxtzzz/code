@@ -29,7 +29,7 @@ namespace Vtitbid.ISP20.Abuzarov.Price
                 return null;
             }
         }
-        public static Price[] GetPrice(int count)
+        public static Price[] GetPriceArray(int count)
         {
             Price[] routes = new Price[count];
 

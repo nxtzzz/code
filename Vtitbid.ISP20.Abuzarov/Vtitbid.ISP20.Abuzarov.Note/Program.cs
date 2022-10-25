@@ -9,7 +9,7 @@ namespace Vtitbid.ISP20.Abuzarov.Note
             Console.Write("Введите количество людей: ");
             if (int.TryParse(Console.ReadLine(), out int value))
             {
-                Note[] array = Note.GetNote(value);
+                Note[] array = Note.GetNoteArray(value);
                 Console.WriteLine();
                 Console.WriteLine(Note.NoteSearch(array));
             }
