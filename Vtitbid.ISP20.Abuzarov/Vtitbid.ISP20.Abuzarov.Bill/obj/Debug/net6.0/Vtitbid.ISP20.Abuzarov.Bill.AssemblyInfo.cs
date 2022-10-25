@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("VTITBiD.ISP20.Abuzarov.Raffle")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Vtitbid.ISP20.Abuzarov.Bill")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("VTITBiD.ISP20.Abuzarov.Raffle")]
-[assembly: System.Reflection.AssemblyTitleAttribute("VTITBiD.ISP20.Abuzarov.Raffle")]
+[assembly: System.Reflection.AssemblyProductAttribute("Vtitbid.ISP20.Abuzarov.Bill")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Vtitbid.ISP20.Abuzarov.Bill")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
