@@ -23,9 +23,9 @@ namespace Vtitbid.ISP20.Abuzarov.Bill
         {
 
             Console.Write("Введите расчетный счет плательщика: ");
-            var payerBill = ChekName(Console.ReadLine(), nameof(PayerAccount));
+            string payerBill = ChekName(Console.ReadLine(), nameof(PayerAccount));
             Console.Write("Введите расчетный счет получателя: ");
-            var recipentBill = ChekName(Console.ReadLine(), nameof(RecipentAccount));
+            string recipentBill = ChekName(Console.ReadLine(), nameof(RecipentAccount));
             Console.Write("Введите сумму начисления: ");
             bool CheckOfAmount = int.TryParse(Console.ReadLine(), out int value);
             if (CheckOfAmount)

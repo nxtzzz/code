@@ -11,11 +11,10 @@ namespace Vtitbid.ISP20.Abuzarov.Bill
             {
                 Bill[] array = Bill.GetBillArray(value);
                 Bill.SearchBill(array);
-
             }
             else
             {
-                Console.WriteLine("Количесвто операций не опредлено ");
+                Console.WriteLine("Количесвто операций не опредлено");
             }
         }
     }
