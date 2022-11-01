@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\-nxtz\\Documents\\code\\Vtitbid.ISP20.Abuzarov\\Vtitbid.ISP20.Abuzarov.Bill\\Vtitbid.ISP20.Abuzarov.Bill.csproj": {}
+    "C:\\Users\\-nxtz\\Desktop\\code-main\\Vtitbid.ISP20.Abuzarov\\Vtitbid.ISP20.Abuzarov.Bill\\Vtitbid.ISP20.Abuzarov.Bill.csproj": {}
   },
   "projects": {
-    "C:\\Users\\-nxtz\\Documents\\code\\Vtitbid.ISP20.Abuzarov\\Vtitbid.ISP20.Abuzarov.Bill\\Vtitbid.ISP20.Abuzarov.Bill.csproj": {
+    "C:\\Users\\-nxtz\\Desktop\\code-main\\Vtitbid.ISP20.Abuzarov\\Vtitbid.ISP20.Abuzarov.Bill\\Vtitbid.ISP20.Abuzarov.Bill.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\-nxtz\\Documents\\code\\Vtitbid.ISP20.Abuzarov\\Vtitbid.ISP20.Abuzarov.Bill\\Vtitbid.ISP20.Abuzarov.Bill.csproj",
+        "projectUniqueName": "C:\\Users\\-nxtz\\Desktop\\code-main\\Vtitbid.ISP20.Abuzarov\\Vtitbid.ISP20.Abuzarov.Bill\\Vtitbid.ISP20.Abuzarov.Bill.csproj",
         "projectName": "Vtitbid.ISP20.Abuzarov.Bill",
-        "projectPath": "C:\\Users\\-nxtz\\Documents\\code\\Vtitbid.ISP20.Abuzarov\\Vtitbid.ISP20.Abuzarov.Bill\\Vtitbid.ISP20.Abuzarov.Bill.csproj",
+        "projectPath": "C:\\Users\\-nxtz\\Desktop\\code-main\\Vtitbid.ISP20.Abuzarov\\Vtitbid.ISP20.Abuzarov.Bill\\Vtitbid.ISP20.Abuzarov.Bill.csproj",
         "packagesPath": "C:\\Users\\-nxtz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\-nxtz\\Documents\\code\\Vtitbid.ISP20.Abuzarov\\Vtitbid.ISP20.Abuzarov.Bill\\obj\\",
+        "outputPath": "C:\\Users\\-nxtz\\Desktop\\code-main\\Vtitbid.ISP20.Abuzarov\\Vtitbid.ISP20.Abuzarov.Bill\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

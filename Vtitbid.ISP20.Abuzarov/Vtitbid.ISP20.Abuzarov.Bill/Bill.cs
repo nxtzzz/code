@@ -8,6 +8,8 @@ namespace Vtitbid.ISP20.Abuzarov.Bill
 {
     public class Bill : IComparable
     {
+        static readonly Action<string> writer = Console.WriteLine;
+        static readonly Func<string> reader = Console.ReadLine;
         public string PayerAccount { get; set; }
         public string RecipentAccount { get; set; }
         public int Amount { get; set; }
@@ -21,13 +23,12 @@ namespace Vtitbid.ISP20.Abuzarov.Bill
 
         public static Bill CreateBill()
         {
-
-            Console.Write("Введите расчетный счет плательщика: ");
-            string payerBill = ChekName(Console.ReadLine(), nameof(PayerAccount));
-            Console.Write("Введите расчетный счет получателя: ");
-            string recipentBill = ChekName(Console.ReadLine(), nameof(RecipentAccount));
-            Console.Write("Введите сумму начисления: ");
-            bool CheckOfAmount = int.TryParse(Console.ReadLine(), out int value);
+            writer("Введите расчетный счет плательщика: ");
+            string payerBill = CheckField(reader(), nameof(PayerAccount));
+            writer("Введите расчетный счет получателя: ");
+            string recipentBill = CheckField(reader(), nameof(RecipentAccount));
+            writer("Введите сумму начисления: ");
+            bool CheckOfAmount = int.TryParse(reader(), out int value);
             if (CheckOfAmount)
             {
                 int amount = value;
@@ -35,7 +36,7 @@ namespace Vtitbid.ISP20.Abuzarov.Bill
             }
             else
             {
-                Console.WriteLine("Ошибка ввода данных");
+                writer("Ошибка ввода данных");
                 Environment.Exit(0);
             }
             return null;
@@ -51,23 +52,6 @@ namespace Vtitbid.ISP20.Abuzarov.Bill
             BillSort(bills);
             return bills;
         }
-        private static string ChekName(string input, string fieldName = "")
-        {
-            switch (fieldName)
-            {
-                case nameof(PayerAccount):
-                    if (!string.IsNullOrEmpty(input))
-                    { return input; }
-                    else { return "Расчетный счет плательщика не определен"; }
-                    break;
-                case nameof(RecipentAccount):
-                    if (!string.IsNullOrEmpty(input))
-                    { return input; }
-                    else { return "Расчетный счет получателя не определен"; }
-                    break;
-            }
-            return "Ошибка ввода";
-        }
         public static Bill BillSort(Bill[] bills)
         {
             Array.Sort(bills);
@@ -75,25 +59,25 @@ namespace Vtitbid.ISP20.Abuzarov.Bill
             for (int i = 0; i < bills.Length; i++)
             {
                 j++;
-                Console.WriteLine($"\nинформация о {j} человеке ");
-                Console.WriteLine(bills[i]);
-                Console.WriteLine();
+                writer($"\nинформация о {j} человеке ");
+                writer(bills[i].ToString());
+                writer("");
             }
             return null;
         }
         public static int SearchBill(Bill[] bills)
         {
             int count = 0;
-            Console.Write("Введите расчетный счет плательщика: ");
-            string input = Console.ReadLine();
-            Console.WriteLine();
+            writer("Введите расчетный счет плательщика: ");
+            string input = reader();
+            writer("");
             if (string.IsNullOrEmpty(input))
                 return -1;
             for (int i = 0; i < bills.Length; i++)
             {
                 if (input == bills[i].PayerAccount)
                 {
-                    Console.WriteLine(bills[i]);
+                    writer(bills[i].ToString());
                 }
                 {
                     count++;
@@ -103,6 +87,36 @@ namespace Vtitbid.ISP20.Abuzarov.Bill
 
             return 0;
 
+        }
+        private static string CheckField(string input, string fieldName = "")
+        {
+            switch (fieldName)
+            {
+                case nameof(PayerAccount):
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        return input;
+                        break;
+                    }
+                    else
+                    {
+                        return "Расчетный счет плательщика не определен";
+                        break;
+                    }
+
+                case nameof(RecipentAccount):
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        return input;
+                        break;
+                    }
+                    else
+                    {
+                        return "Расчетный счет получателя не определен";
+                        break;
+                    }
+            }
+            return "Ошибка ввода";
         }
         public int CompareTo(object? o)
         {
